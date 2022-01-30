@@ -1,11 +1,8 @@
 const login = require('./login.validation')
-const create = require('./create.validation')
-const delete_ = require('./delete.validation')
-const update = require('./update.validation')
+const register = require('./register.validation')
 
+//exporto los shemas
 module.exports = {
     login,
-    create,
-    delete_,
-    update
+    register
 }

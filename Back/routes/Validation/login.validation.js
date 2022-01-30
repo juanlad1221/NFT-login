@@ -1,7 +1,7 @@
 const joi = require('joi')
 
 const loginShema = joi.object({
-    user: joi.string().required(),
+    username: joi.string().required(),
     password: joi.string().required()
 })
 
