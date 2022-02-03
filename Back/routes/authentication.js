@@ -21,7 +21,7 @@ let salt = bcrypt.genSaltSync(8)
 
 // USERNAME:nft-project
 // PASSWORD: 1234
-// TB PUEDEN REGISTRAR NUEVO USUARIO
+// TB PUEDEN REGISTRAR NUEVO USUARIOS
 
 
 
