@@ -1,4 +1,4 @@
-require('dotenv').config()
+﻿require('dotenv').config()
 const express = require("express")
 const router = express.Router()
 
@@ -19,7 +19,7 @@ const User = require('../shemas/Users')
 let salt = bcrypt.genSaltSync(8)
 
 
-// USERNAME:nft-proyect
+// USERNAME:nft-project
 // PASSWORD: 1234
 // TB PUEDEN REGISTRAR NUEVO USUARIO
 
@@ -30,7 +30,8 @@ router.post("/login", Validator('login'), async (req, res) => {
 
     //Se recive los datos ya validados
     const user = req.body
-
+	
+	
     //Flag para controlar la generacion del token
     usernameFlag = false
     passwordFlag = false

@@ -5,3 +5,5 @@ mongoose.connect('mongodb+srv://juanlad1221:yonome1221@clustershool-widaw.mongod
 	if(err){console.log('Error: En consulta...',err)};
 	console.log('Data Base ok...');
 })
+
+

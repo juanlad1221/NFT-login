@@ -1,0 +1,38 @@
+
+
+.login-container{
+    height: 90vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+
+form input{
+    margin-top: 10%;
+    height: 5vh;
+    padding: 1%;
+}
+
+form button{
+    margin-top: 20%;
+    height: 5vh;
+}
+
+form button:hover{
+    background-color: gray;
+}
+
+.img-container{
+    background-color: rgba(68, 67, 67, 0.61);
+}
+
+.bt{
+    border: 1px solid blue;
+}
