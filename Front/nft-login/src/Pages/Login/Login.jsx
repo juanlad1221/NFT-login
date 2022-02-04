@@ -1,6 +1,6 @@
 import './Login.css'
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import img from '../../assets/miner.png'
 import axios from 'axios'
 import NavBar from '../../Components/NavBar'
@@ -66,6 +66,12 @@ export default function Home() {
 
           <button type='submit'>Send</button>
         </form>
+
+        <div className="mt">
+          <Link to='/register'>
+            <a href="">Register</a>
+          </Link>
+        </div>
 
       </div>
 

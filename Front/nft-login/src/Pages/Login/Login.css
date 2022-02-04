@@ -3,6 +3,7 @@
 .login-container{
     height: 90vh;
     display: flex;
+    flex-direction: column;
     justify-content:center;
     align-items: center;
     
@@ -33,6 +34,10 @@ form button:hover{
     background-color: rgba(68, 67, 67, 0.61);
 }
 
+.mt{
+    margin-top: 3%;
+    color: rgb(56, 54, 54);
+}
 .bt{
     border: 1px solid blue;
 }
